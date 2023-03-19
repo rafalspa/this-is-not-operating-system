@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tinOS</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script defer src="app.js"></script>
+    <script defer src="clock.js"></script>
+    <script defer src="calculator.js"></script>
+  </head>
+  <body>
+    <div class="desktop">
+        <div>
+            <div class="icon"><img src="img/terminal.png" width="48" id="new-window-button" onclick="createNewWindow('Terminal')" />Terminal</div>
+            <div class="icon"><img src="img/texteditor.png" width="48" id="new-window-button" onclick="createNewWindow('Text Editor')" />Text Editor</div>
+            <div class="icon"><img src="img/calculator.png" width="48" id="new-window-button" onclick="createNewWindow('Calculator')" />Calculator</div>
+            <div class="icon"><img src="img/settings.png" width="48" id="new-window-button" onclick="createNewWindow('Settings')" />Settings</div>
+            </div> 
+            
+        <div class="appsBar">
+            <div class="powerButton"><img src="img/powerbutton.png" /></div>
+            <div id="time"></div>
+        </div>
+    </div>
+  </body>
+</html>
